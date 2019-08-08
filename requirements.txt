@@ -1,0 +1,8 @@
+numpy
+gym
+pybullet
+mnist
+tensorflow==1.8.0
+# before install mpi4py install libopenmpi-dev
+# sudo apt install libopenmpi-dev
+mpi4py

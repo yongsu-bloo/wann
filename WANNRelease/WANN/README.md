@@ -10,7 +10,7 @@ Core algorithm tested with:
 
 - NumPy 1.15.2 (`pip install numpy`)
 
-- mpi4py 3.0.1 (`pip install mpi4py`)
+- mpi4py 3.0.1 (`sudo apt install libopenmpi-dev` -> `pip install mpi4py`)
 
 - OpenAI Gym 0.9.6 (`pip install gym` -- installation details [here](https://github.com/openai/gym))
 
@@ -25,9 +25,16 @@ Domains tested with:
 
 - MNIST: Mnist utilities 0.2.2 (`pip install mnist`)
 
-- VAE Racer: 
+- VAE Racer:
     - Tensorflow 1.8 (`pip install tensorflow==1.8.0`)
     - Pretrained VAE (in [wannRelease](../) -- copy to root to use, e.g: `cp -r ../vae .`)
+
+Set up
+
+``` bash
+sudo apt install libopenmpi-dev
+pip install -r requirements.txt
+```
 
 
 
@@ -72,16 +79,15 @@ For attribution in academic contexts, please cite this work as
 
 ```
 @article{wann2019,
-  author = {Adam Gaier and David Ha},  
-  title  = {Weight Agnostic Neural Networks},  
-  eprint = {arXiv:1906.04358},  
-  url    = {https://weightagnostic.github.io},  
-  note   = "\url{https://weightagnostic.github.io}",  
-  year   = {2019}  
+  author = {Adam Gaier and David Ha},
+  title  = {Weight Agnostic Neural Networks},
+  eprint = {arXiv:1906.04358},
+  url    = {https://weightagnostic.github.io},
+  note   = "\url{https://weightagnostic.github.io}",
+  year   = {2019}
 }
 ```
 
 ## Disclaimer
 
 This is not an official Google product.
-
