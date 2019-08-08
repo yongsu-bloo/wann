@@ -1,8 +1,13 @@
-numpy
-gym
-pybullet
-mnist
-tensorflow==1.8.0
+numpy==1.15.2
+gym==0.9.6
+pybullet==1.6.3
+mnist>=0.2.2
+tensorflow-gpu==1.8.0
 # before install mpi4py install libopenmpi-dev
 # sudo apt install libopenmpi-dev
-mpi4py
+mpi4py==3.0.1
+# added
+opencv-python
+box2d-py
+box2d
+scipy==1.1.0
