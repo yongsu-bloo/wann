@@ -11,4 +11,5 @@ opencv-python
 cython
 box2d
 box2d-py
+pillow
 scipy==1.1.0
